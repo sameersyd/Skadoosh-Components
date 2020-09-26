@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		73E89DE6251F2E0C0063C42F /* SkadooshApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89DE5251F2E0C0063C42F /* SkadooshApp.swift */; };
+		73E89DE8251F2E0C0063C42F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89DE7251F2E0C0063C42F /* ContentView.swift */; };
+		73E89DEA251F2E110063C42F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E89DE9251F2E110063C42F /* Assets.xcassets */; };
+		73E89DED251F2E110063C42F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E89DEC251F2E110063C42F /* Preview Assets.xcassets */; };
+		73E89DF8251F2E110063C42F /* SkadooshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89DF7251F2E110063C42F /* SkadooshTests.swift */; };
+		73E89E03251F2E110063C42F /* SkadooshUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E89E02251F2E110063C42F /* SkadooshUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73E89DF4251F2E110063C42F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73E89DDA251F2E0C0063C42F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73E89DE1251F2E0C0063C42F;
+			remoteInfo = Skadoosh;
+		};
+		73E89DFF251F2E110063C42F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73E89DDA251F2E0C0063C42F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73E89DE1251F2E0C0063C42F;
+			remoteInfo = Skadoosh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73E89DE2251F2E0C0063C42F /* Skadoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skadoosh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E89DE5251F2E0C0063C42F /* SkadooshApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkadooshApp.swift; sourceTree = "<group>"; };
+		73E89DE7251F2E0C0063C42F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		73E89DE9251F2E110063C42F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73E89DEC251F2E110063C42F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73E89DEE251F2E110063C42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E89DF3251F2E110063C42F /* SkadooshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkadooshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E89DF7251F2E110063C42F /* SkadooshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkadooshTests.swift; sourceTree = "<group>"; };
+		73E89DF9251F2E110063C42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E89DFE251F2E110063C42F /* SkadooshUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkadooshUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E89E02251F2E110063C42F /* SkadooshUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkadooshUITests.swift; sourceTree = "<group>"; };
+		73E89E04251F2E110063C42F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73E89DDF251F2E0C0063C42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E89DF0251F2E110063C42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E89DFB251F2E110063C42F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73E89DD9251F2E0C0063C42F = {
+			isa = PBXGroup;
+			children = (
+				73E89DE4251F2E0C0063C42F /* Skadoosh */,
+				73E89DF6251F2E110063C42F /* SkadooshTests */,
+				73E89E01251F2E110063C42F /* SkadooshUITests */,
+				73E89DE3251F2E0C0063C42F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73E89DE3251F2E0C0063C42F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73E89DE2251F2E0C0063C42F /* Skadoosh.app */,
+				73E89DF3251F2E110063C42F /* SkadooshTests.xctest */,
+				73E89DFE251F2E110063C42F /* SkadooshUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73E89DE4251F2E0C0063C42F /* Skadoosh */ = {
+			isa = PBXGroup;
+			children = (
+				73E89DE5251F2E0C0063C42F /* SkadooshApp.swift */,
+				73E89DE7251F2E0C0063C42F /* ContentView.swift */,
+				73E89DE9251F2E110063C42F /* Assets.xcassets */,
+				73E89DEE251F2E110063C42F /* Info.plist */,
+				73E89DEB251F2E110063C42F /* Preview Content */,
+			);
+			path = Skadoosh;
+			sourceTree = "<group>";
+		};
+		73E89DEB251F2E110063C42F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				73E89DEC251F2E110063C42F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		73E89DF6251F2E110063C42F /* SkadooshTests */ = {
+			isa = PBXGroup;
+			children = (
+				73E89DF7251F2E110063C42F /* SkadooshTests.swift */,
+				73E89DF9251F2E110063C42F /* Info.plist */,
+			);
+			path = SkadooshTests;
+			sourceTree = "<group>";
+		};
+		73E89E01251F2E110063C42F /* SkadooshUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73E89E02251F2E110063C42F /* SkadooshUITests.swift */,
+				73E89E04251F2E110063C42F /* Info.plist */,
+			);
+			path = SkadooshUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73E89DE1251F2E0C0063C42F /* Skadoosh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E89E07251F2E110063C42F /* Build configuration list for PBXNativeTarget "Skadoosh" */;
+			buildPhases = (
+				73E89DDE251F2E0C0063C42F /* Sources */,
+				73E89DDF251F2E0C0063C42F /* Frameworks */,
+				73E89DE0251F2E0C0063C42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skadoosh;
+			productName = Skadoosh;
+			productReference = 73E89DE2251F2E0C0063C42F /* Skadoosh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73E89DF2251F2E110063C42F /* SkadooshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E89E0A251F2E110063C42F /* Build configuration list for PBXNativeTarget "SkadooshTests" */;
+			buildPhases = (
+				73E89DEF251F2E110063C42F /* Sources */,
+				73E89DF0251F2E110063C42F /* Frameworks */,
+				73E89DF1251F2E110063C42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73E89DF5251F2E110063C42F /* PBXTargetDependency */,
+			);
+			name = SkadooshTests;
+			productName = SkadooshTests;
+			productReference = 73E89DF3251F2E110063C42F /* SkadooshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73E89DFD251F2E110063C42F /* SkadooshUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E89E0D251F2E110063C42F /* Build configuration list for PBXNativeTarget "SkadooshUITests" */;
+			buildPhases = (
+				73E89DFA251F2E110063C42F /* Sources */,
+				73E89DFB251F2E110063C42F /* Frameworks */,
+				73E89DFC251F2E110063C42F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73E89E00251F2E110063C42F /* PBXTargetDependency */,
+			);
+			name = SkadooshUITests;
+			productName = SkadooshUITests;
+			productReference = 73E89DFE251F2E110063C42F /* SkadooshUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73E89DDA251F2E0C0063C42F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					73E89DE1251F2E0C0063C42F = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					73E89DF2251F2E110063C42F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 73E89DE1251F2E0C0063C42F;
+					};
+					73E89DFD251F2E110063C42F = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 73E89DE1251F2E0C0063C42F;
+					};
+				};
+			};
+			buildConfigurationList = 73E89DDD251F2E0C0063C42F /* Build configuration list for PBXProject "Skadoosh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73E89DD9251F2E0C0063C42F;
+			productRefGroup = 73E89DE3251F2E0C0063C42F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73E89DE1251F2E0C0063C42F /* Skadoosh */,
+				73E89DF2251F2E110063C42F /* SkadooshTests */,
+				73E89DFD251F2E110063C42F /* SkadooshUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73E89DE0251F2E0C0063C42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E89DED251F2E110063C42F /* Preview Assets.xcassets in Resources */,
+				73E89DEA251F2E110063C42F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E89DF1251F2E110063C42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E89DFC251F2E110063C42F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73E89DDE251F2E0C0063C42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E89DE8251F2E0C0063C42F /* ContentView.swift in Sources */,
+				73E89DE6251F2E0C0063C42F /* SkadooshApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E89DEF251F2E110063C42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E89DF8251F2E110063C42F /* SkadooshTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E89DFA251F2E110063C42F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73E89E03251F2E110063C42F /* SkadooshUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73E89DF5251F2E110063C42F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73E89DE1251F2E0C0063C42F /* Skadoosh */;
+			targetProxy = 73E89DF4251F2E110063C42F /* PBXContainerItemProxy */;
+		};
+		73E89E00251F2E110063C42F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73E89DE1251F2E0C0063C42F /* Skadoosh */;
+			targetProxy = 73E89DFF251F2E110063C42F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73E89E05251F2E110063C42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		73E89E06251F2E110063C42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73E89E08251F2E110063C42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Skadoosh/Preview Content\"";
+				DEVELOPMENT_TEAM = GY8LXNR38D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Skadoosh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.femargent.Skadoosh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		73E89E09251F2E110063C42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Skadoosh/Preview Content\"";
+				DEVELOPMENT_TEAM = GY8LXNR38D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Skadoosh/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.femargent.Skadoosh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		73E89E0B251F2E110063C42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY8LXNR38D;
+				INFOPLIST_FILE = SkadooshTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.femargent.SkadooshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skadoosh.app/Skadoosh";
+			};
+			name = Debug;
+		};
+		73E89E0C251F2E110063C42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY8LXNR38D;
+				INFOPLIST_FILE = SkadooshTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.femargent.SkadooshTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Skadoosh.app/Skadoosh";
+			};
+			name = Release;
+		};
+		73E89E0E251F2E110063C42F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY8LXNR38D;
+				INFOPLIST_FILE = SkadooshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.femargent.SkadooshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skadoosh;
+			};
+			name = Debug;
+		};
+		73E89E0F251F2E110063C42F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GY8LXNR38D;
+				INFOPLIST_FILE = SkadooshUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.femargent.SkadooshUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Skadoosh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73E89DDD251F2E0C0063C42F /* Build configuration list for PBXProject "Skadoosh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E89E05251F2E110063C42F /* Debug */,
+				73E89E06251F2E110063C42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E89E07251F2E110063C42F /* Build configuration list for PBXNativeTarget "Skadoosh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E89E08251F2E110063C42F /* Debug */,
+				73E89E09251F2E110063C42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E89E0A251F2E110063C42F /* Build configuration list for PBXNativeTarget "SkadooshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E89E0B251F2E110063C42F /* Debug */,
+				73E89E0C251F2E110063C42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E89E0D251F2E110063C42F /* Build configuration list for PBXNativeTarget "SkadooshUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73E89E0E251F2E110063C42F /* Debug */,
+				73E89E0F251F2E110063C42F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73E89DDA251F2E0C0063C42F /* Project object */;
+}

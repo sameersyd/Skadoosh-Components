@@ -21,5 +21,5 @@ jobs:
       
     - name: Xcode build
       run: |
-        cd XCodeProjects/Skadoosh/
+        cd Skadoosh/
         xcodebuild clean build -scheme Skadoosh -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.0'
